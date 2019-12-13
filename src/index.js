@@ -10,4 +10,5 @@ class Dialog {
   }
 }
 
+
 window.Dialog = Dialog

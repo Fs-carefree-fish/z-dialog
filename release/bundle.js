@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "119db508453a5a4754fe";
+/******/ 	var hotCurrentHash = "68045785606d5095f1a5";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -804,7 +804,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar obj = {\n  name: 'obj'\n};\n\nwindow.obj = obj;\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar Dialog = function () {\n  function Dialog() {\n    _classCallCheck(this, Dialog);\n\n    this.list = {};\n  }\n\n  _createClass(Dialog, [{\n    key: \"set\",\n    value: function set(key, value) {\n      this.list[key] = value;\n    }\n  }, {\n    key: \"get\",\n    value: function get(key) {\n      return this.list[key];\n    }\n  }]);\n\n  return Dialog;\n}();\n\nwindow.Dialog = Dialog;\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
