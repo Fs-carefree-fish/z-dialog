@@ -1,0 +1,45 @@
+# 默认被忽略
+# .*.swp
+
+# ._*
+
+# .DS_Store
+
+# .git
+
+# .hg
+
+# .npmrc
+
+# .lock-wscript
+
+# .svn
+
+# .wafpickle-*
+
+# config.gypi
+
+# CVS
+
+# npm-debug.log
+
+# node_modules/
+
+
+# 默认被包含
+# package.json
+
+# README (and its variants)
+
+# CHANGELOG (and its variants)
+
+# LICENSE / LICENCE
+
+_book
+doc
+example
+SUMMARY.md
+webpack.config.js
+.babelrc
+
+

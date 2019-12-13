@@ -1,6 +1,6 @@
 {
   "name": "fz-dialog",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "简易轻量的前端UI插件，可定制的弹窗dialog",
   "main": "src/index.js",
   "scripts": {
