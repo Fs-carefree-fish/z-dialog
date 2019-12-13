@@ -1,5 +1,13 @@
-var z_dialog = function () {
-  this.a = 'A'
+class Dialog {
+  constructor() {
+    this.list = {}
+  }
+  set(key, value) {
+    this.list[key] = value
+  }
+  get(key) {
+    return this.list[key]
+  }
 }
 
-window.z_dialog = z_dialog;
+window.Dialog = Dialog

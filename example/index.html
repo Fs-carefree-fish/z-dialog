@@ -7,12 +7,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
-<script src="../release/bundle.js"></script>
+<script src="./bundle.js"></script>
 <script>
-  console.log(z_dialog)
+
+  // const b = new Promise((resolve, reject) => {
+  //   setTimeout(() => {
+  //     console.log("res")
+  //     resolve("执行完毕")
+  //   }, 1000)
+  // })
+  // b.then((data) => {
+  //   console.log(data)
+  // })
+  
+  var Dialog = new Dialog()
+  Dialog.set("test", "我是测试")
+  console.log(Dialog.get("test"))
+
+
+
 </script>
 
 <body>
+  <div>
+    <h1>Example,z_dialog!</h1>
+  </div>
 
 </body>
 
