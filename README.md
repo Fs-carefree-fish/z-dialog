@@ -4,6 +4,7 @@
 ## 简介
 
 ## 安装下载
+- 下载地址：https://github.com/Fs-carefree-fish/z-dialog/releases
 
 ## 快速使用
 
